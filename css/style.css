@@ -1,0 +1,141 @@
+body {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+.banner {
+  background-color: rgb(110, 108, 108);
+  display: flex;
+  border: 1px black dashed;
+  justify-content: space-between;
+}
+
+.banner-div-1 {
+  display: flex;
+  align-items: center;
+  border: 1px black dashed;
+}
+
+.banner .fab {
+  color: rgb(204, 3, 3);
+  padding: 0.5vw;
+}
+
+.banner-div-3 .fas {
+  padding: 0.5vw;
+}
+
+.banner-div-2 {
+  justify-content: center;
+}
+
+form {
+  display: flex;
+}
+
+input {
+  margin: 0;
+  background-color: black;
+  border: 0.5px grey solid;
+}
+
+/* input[type="text"] {
+  text-align: center;
+} */
+
+.banner-div-2 .fas {
+  padding: 5px 20px 5px 20px;
+  border: 1px red dashed;
+  background-color: rgb(63, 62, 62);
+}
+
+.banner-div-3 {
+  align-items: center;
+  border: 1px black dashed;
+}
+
+.logo {
+  width: 5vw;
+}
+nav ul li {
+  list-style: none;
+  line-height: 35px;
+}
+.content {
+  display: flex;
+  border: 1px black dashed;
+}
+
+.side-nav {
+  background-color: rgb(78, 78, 78);
+}
+
+.side-nav hr {
+  border: 0.5px grey solid;
+}
+.side-nav-home ul {
+  margin: 1vw;
+  padding: 0;
+  width: 15vw;
+  border: 1px black dashed;
+  font-size: small;
+}
+.side-nav-library ul {
+  margin: 1vw;
+  padding: 0;
+  width: 15vw;
+  border: 1px black dashed;
+  font-size: small;
+}
+
+.videos {
+  width: 85vw;
+  border: 1px black dashed;
+  background-color: rgb(42, 42, 42);
+}
+.videos hr {
+  border: 0.5px grey solid;
+}
+.central-nav ul {
+  display: flex;
+  border: 1px black dashed;
+  justify-content: space-between;
+  background-color: rgb(63, 62, 62);
+}
+.central-nav ul li {
+  justify-content: space-between;
+  align-items: center;
+  display: inline-flex;
+  font-variant: small-caps;
+  color: white;
+}
+.images {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  border: 1px red dashed;
+}
+
+figure {
+  border: 1px black dashed;
+  margin: 0;
+}
+
+figure img {
+  width: 18vw;
+  height: 15vh;
+  border: 1px black dashed;
+}
+
+figure figcaption {
+  text-align: left;
+  font-size: x-small;
+  color: white;
+  font-weight: bold;
+}
+
+figcaption + figcaption {
+  font-size: xx-small;
+  font-weight: normal;
+}
