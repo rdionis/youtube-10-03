@@ -3,7 +3,7 @@ body {
 }
 
 .banner {
-  background-color: rgb(110, 108, 108);
+  background-color: rgb(134, 132, 132);
   display: flex;
   border: 1px black dashed;
   justify-content: space-between;
@@ -14,7 +14,16 @@ body {
   align-items: center;
   border: 1px black dashed;
 }
+.banner-div-2 {
+  display: flex;
+  align-items: center;
+}
 
+.banner-div-3 {
+  display: flex;
+
+  align-items: center;
+}
 .banner .fab {
   color: rgb(204, 3, 3);
   padding: 0.5vw;
@@ -22,10 +31,6 @@ body {
 
 .banner-div-3 .fas {
   padding: 0.5vw;
-}
-
-.banner-div-2 {
-  justify-content: center;
 }
 
 form {
@@ -53,6 +58,14 @@ input {
   border: 1px black dashed;
 }
 
+.banner-div-3 img {
+  width: 2vw;
+  margin: 0.5rem;
+  align-self: center;
+  border-radius: 50%;
+  border: 1px black dashed;
+}
+
 .logo {
   width: 5vw;
 }
@@ -66,25 +79,49 @@ nav ul li {
 }
 
 .side-nav {
-  background-color: rgb(78, 78, 78);
+  background-color: rgb(107, 106, 106);
 }
-
+nav i {
+  border: 1px black dashed;
+  margin-right: 2vw;
+  font-size: 1rem;
+}
+#show-more {
+  font-size: 1.5rem;
+}
 .side-nav hr {
   border: 0.5px grey solid;
 }
-.side-nav-home ul {
+.side-nav-home ul,
+.side-nav-library ul,
+.side-nav-subscriptions ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   margin: 1vw;
   padding: 0;
   width: 15vw;
   border: 1px black dashed;
   font-size: small;
+  color: white;
 }
-.side-nav-library ul {
-  margin: 1vw;
-  padding: 0;
-  width: 15vw;
-  border: 1px black dashed;
+
+.side-nav-subscriptions h2 {
+  padding-left: 1rem;
   font-size: small;
+  color: white;
+  font-variant: small-caps;
+}
+.side-nav-subscriptions ul li {
+  display: flex;
+  border: 1px black dashed;
+}
+.side-nav-subscriptions img {
+  width: 1.5vw;
+  margin: 0.5rem;
+  align-self: center;
+  border-radius: 50%;
+  border: 1px black dashed;
 }
 
 .videos {
@@ -108,12 +145,11 @@ nav ul li {
   font-variant: small-caps;
   color: white;
 }
-.images {
+.video-images {
   margin: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: flex-start;
   border: 1px red dashed;
 }
 
@@ -123,7 +159,7 @@ figure {
 }
 
 figure img {
-  width: 18vw;
+  width: 19vw;
   height: 15vh;
   border: 1px black dashed;
 }
