@@ -145,6 +145,23 @@ nav i {
   font-variant: small-caps;
   color: white;
 }
+
+.uploads ul li {
+  margin: 0.5em;
+  display: inline-flex;
+  color: white;
+  font-size: small;
+  /* border: 1px red dashed; */
+}
+
+.uploads ul li i {
+  padding-right: 0.5em;
+}
+
+.uploads ul li:nth-child(2) {
+  text-transform: uppercase;
+  color: grey;
+}
 .video-images {
   margin: 0;
   display: flex;
@@ -164,14 +181,35 @@ figure img {
   border: 1px black dashed;
 }
 
-figure figcaption {
+figcaption {
+  padding-bottom: 0.5em;
+}
+
+.channel {
+  display: flex;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 200;
+  color: grey;
+}
+
+.video-1 .channel p {
+  margin: 0;
+}
+
+.channel p:nth-child(2),
+.channel p::nth-child(3) {
+  padding-left: em;
+}
+
+.title {
   text-align: left;
-  font-size: x-small;
+  font-size: small;
   color: white;
   font-weight: bold;
 }
-
-figcaption + figcaption {
-  font-size: xx-small;
+.caption-bottom {
+  font-size: x-small;
   font-weight: normal;
+  color: grey;
 }
