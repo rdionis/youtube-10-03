@@ -22,6 +22,22 @@ body {
   align-items: center;
 }
 
+label {
+  align-self: center;
+  padding: 0 5px;
+}
+
+#mode {
+  align-self: center;
+  position: relative;
+  top: 0.1rem;
+}
+
+#dark,
+#light {
+  cursor: pointer;
+}
+
 .banner-div-3 {
   display: flex;
   align-items: center;
@@ -267,9 +283,18 @@ aside .subscribe img {
 }
 
 .button {
-  width: 5vw;
-  padding: 0.5rem;
+  width: 8vw;
+  padding: 0.1rem;
   background-color: rgb(61, 61, 61);
   font-weight: 700;
   color: grey;
+}
+
+.dark {
+  border: 3px purple dashed;
+  background-color: red;
+  color: orange;
+}
+
+.light {
 }

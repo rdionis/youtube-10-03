@@ -16,15 +16,15 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>You Tube</title>
   </head>
-  <body>
-    <div class="banner">
+  <body id="randomStyle1">
+    <div class="banner" id="randomStyle2">
       <div class="banner-div-1">
         <i class="fas fa-bars"></i>
         <img src="./img/youtube.png" alt="YouTube logo"></i>
         <h4>YouTube</h4>
       </div>
-      <div class="banner-div-2">
-        <form>
+      <div class="banner-div-2" id="randomStyle3">
+        <form class="form">
           <input
             type="text"
             name="name"
@@ -35,7 +35,22 @@
           />
           <i class="fas fa-search"></i
           ><!--search icon-->
+          <label for="mode">mode</label>
+          <input type="checkbox" name="mode" id="mode" onclick="darkLight()"/>
         </form>
+        <script>
+         const darkLight = ()=>{
+          if(this.checked){
+            randomStyle1.classList.add("dark");
+            randomStyle2.classList.add("dark");
+            randomStyle3.classList.add("dark");
+            randomStyle4.classList.add("dark");
+            randomStyle5.classList.add("dark");
+            randomStyle6.classList.add("dark");
+          }
+         }
+
+        </script>
       </div>
 
       <div class="banner-div-3">
@@ -48,9 +63,9 @@
         <img src="./img/hadi.jpeg" alt="Hadi sitting on the stairs">
       </div>
     </div>
-    <div class="content">
-      <nav class="side-nav">
-        <div class="side-nav-home">
+    <div class="content" id="randomStyle4">
+      <nav class="side-nav" id="randomStyle5">
+        <div class="side-nav-home" id="randomStyle6">
           <ul>
             <li><i class="fas fa-home"></i>Home</li>
             <li><i class="fab fa-hotjar"></i>Trending</li>
@@ -96,7 +111,7 @@
           <ul><li>Uploads</li>
           <li><i class="fas fa-caret-right"></i>play all</li></ul>
       </div>
-        <section class="video-images">
+        <section class="video-images" id="randomStyle2">
           <figure class="video-1">
           
 
@@ -147,7 +162,7 @@
           </ul>
         </div>
 
-        <section class="video-images">
+        <section class="video-images" id="randomStyle5">
           </figure>
           <figure class="video-5">
             <img src="./img/beyonce.jpeg" alt="all the single ladies">
@@ -188,7 +203,7 @@
          </div>
          <div class="button">
          <form action="subscribe">
-          <input type="button" class="button" value="SUBSCRIBE">
+          <button type="subscribe" class="button">SUBSCRIBE</button>
         </form>
       </div>
 </aside>
