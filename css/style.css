@@ -139,6 +139,7 @@ nav i {
 .videos {
   width: 70vw;
   background-color: rgb(42, 42, 42);
+  justify-content: center;
 }
 .videos hr {
   border: 0.5px grey solid;
@@ -179,7 +180,7 @@ nav i {
   margin: 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  /*justify-content: space-between;*/
 }
 
 figure {
@@ -247,6 +248,7 @@ figcaption {
 
 .video-1 .channel p {
   margin: 0;
+  padding: 0;
 }
 
 .channel p:nth-child(2),
